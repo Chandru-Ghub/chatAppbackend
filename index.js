@@ -12,7 +12,7 @@ const server = http.createServer(app);
 
 const io = new Server(server,{
     cors:{
-        origin:'https://harmonious-gaufre-34e64e.netlify.app/',
+        origin:'https://harmonious-gaufre-34e64e.netlify.app',
         methods:['GET','POST']
     }
 })
